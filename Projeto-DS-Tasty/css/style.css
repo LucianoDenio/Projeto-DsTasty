@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+:root {
+  --color-red: #f03c42;
+  --color-yellow: #fff964;
+  --color-white: #fff;
+  --bg-light-gray: #e5e5e5;
+  --text-gray: #5e5e5e;
+}
+
+header {
+  background-color: var(--color-red);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+nav h1 {
+  color: var(--color-yellow);
+  font-size: 24px;
+  text-align: center;
+}
+
+.generic-section{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#pizzas {
+  padding: 20px 15px;
+  background-color: var(--bg-light-gray);
+
+}
+
+.pizza-card img {
+  border-radius: 12px 0px 0px 12px;
+  width: 200px;
+}
+
+.pizza-card {
+  display: flex;
+  margin: 20px;
+}
+
+.pizza-card-description {
+  background-color: var(--color-white);
+  border-radius: 0 12PX 12PX 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pizza-card-description h3{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text-gray);
+}
+
+.pizza-card-description p{
+    font-weight: 400;
+    color: var(--text-gray);
+}
+
+.pizza-card-description h4{
+    font-weight: 700;
+    font-size: 24px;
+    color: #02B814
+}
+
+#coments{
+    padding: 20px 15px;
+}
+
+#coments h2{
+    text-align: center;
+    font-size: 32px;
+    color: var(--text-gray);
+    margin-bottom: 40px;
+}
+
+.card-coment{
+    font-size: 16px;
+    color: var(--color-red);
+    padding: 25px 20px;
+    background-color: var(--color-yellow);
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+footer{
+    padding: 0 15px;
+    height: 120px;
+    background-color: var(--color-red);
+    color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content a{
+    font-size: 16px;
+}
+
+.footer-content address{
+    font-size: 16px;
+}
